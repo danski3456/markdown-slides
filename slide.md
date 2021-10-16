@@ -1,16 +1,3 @@
-# markdown-slides
-
-## Running
-
-```sh
- docker run -v "${PWD}/:/content/" markdown-slides <slide-name.md>
-```
-
-
-## Example slide format 
-
-
-```md
 ---
 title: Default Slide
 date: 9th July 2021
@@ -55,4 +42,3 @@ Column 2
 $$ e^{x} = \int_{1}^{2} dx$$
 
 ![Uy Flag](img/uy_flag.png)
-```md

@@ -1,0 +1,8 @@
+version: "3"
+services:
+  slides:
+    image: danski3456/markdown-slides
+    build: .
+    volumes:
+      - "./tests:/content/"
+
