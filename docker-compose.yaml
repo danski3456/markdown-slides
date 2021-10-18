@@ -1,7 +1,7 @@
 version: "3"
 services:
   slides:
-    image: danski3456/markdown-slides
+    image: danski3456/markdown-slides:latest
     build: .
     volumes:
       - "./tests:/content/"

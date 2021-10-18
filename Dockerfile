@@ -7,7 +7,8 @@ RUN wget "https://github.com/jgm/pandoc/releases/download/2.14.2/pandoc-2.14.2-1
 RUN python3 -m pip install codebraid pantable
 
 WORKDIR /code
-COPY config .
+COPY params.yaml .
+COPY template.html .
 COPY compile.sh .
 
 RUN mkdir -p content

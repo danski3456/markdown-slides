@@ -1,14 +1,12 @@
 to: revealjs
 incremental: true
 
-template: /code/template.revealjs
+template: /code/template.html 
 slide-level: 3
 
-# variables:
-  # revealjs-url: "https://cdn.jsdelivr.net/reveal.js/3.0.0"
-
 metadata:
-  reveal_plugins: ["notes", "search", "chalkboard"]
+  chalkboard: true
+  highlightjs: true
   slideNumber: true
   controls: true
   width: "'100%'"
@@ -18,11 +16,8 @@ metadata:
     - Diego Kiedanski
 
 filters:
-- pantable
-#
+  - pantable
+
 html-math-method:
   method: mathjax
-
-css:
-  - /code/style.css
 
